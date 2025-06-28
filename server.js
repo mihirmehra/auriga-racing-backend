@@ -30,7 +30,7 @@ mongoose.connect(MONGODB_URI, {
 
 
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || "http://localhost:3000", // This will be 'https://auriga-racing-snowy.vercel.app'
+  origin: process.env.FRONTEND_URL || "https://auriga-racing-frontend.vercel.app/", // This will be 'https://auriga-racing-snowy.vercel.app'
   credentials: true, // Allow cookies to be sent with requests
 };
 
